@@ -1,0 +1,78 @@
+@media only screen and (min-width: 992px) {
+/* For desktop */  
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.ul1 {
+  margin-left: 50px;
+  float: left;
+  font-family: Lora;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ul2 {
+  margin-right: 50px;
+  float: right;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+main {
+  clear: both;
+  position: relative;
+  background-image: url("../img/Ha Long Bay.jpg");
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+} 
+
+.absolute {
+  position: absolute;
+  top: 150px;
+  left: 55px;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  font-size:70px;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 18px;
+  inline-size: auto;
+  opacity: 90%;
+}
+
+h2 {
+  font-family: Lora;
+  font-size: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+}
